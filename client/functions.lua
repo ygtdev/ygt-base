@@ -29,13 +29,6 @@ function YGTBase.Functions.SendAlert(type, text)
     exports["mythic_notify"]:SendAlert(type, text)
 end
 
--- YGTBase.Functions.GetRandomName()
-function YGTBase.Functions.GetRandomName()
-    local name = math.random(1, #Config.Name)
-    local surname = math.random(1, #Config.Surname)
-    return Config.Name[name] .. " " .. Config.Surname[surname]
-end
-
 -- YGTBase.Functions.DistanceCheck(vector3(2371.60, 3080.20, 48.1529), 5)
 function YGTBase.Functions.DistanceCheck(coords, dist)
     local pPed = PlayerPedId()
