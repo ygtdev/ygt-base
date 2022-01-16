@@ -2,7 +2,9 @@
 👾 This development tool helps your work and makes it easier.
 
 ## Usage
+```lua
     local YGTBase = exports['ygt-base']:GetYGTBaseObject()
+```
 
 ## Functions
     
