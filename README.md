@@ -5,7 +5,8 @@
     local YGTBase = exports['ygt-base']:GetYGTBaseObject()
 
 ## Functions
-
+    
+```lua
     YGTBase.Functions.ScreenBlur(blur)
     YGTBase.Functions.GetPlayerData()
     YGTBase.Functions.GiveItem(itemname, amount, slot)
@@ -18,6 +19,7 @@
     YGTBase.Functions.StopStatus()
     YGTBase.Functions.DrawText(x, y, z, text)
     YGTBase.Functions.CreatePed(pedname, x, y, z, heading)
+```
 
 ## Discord Server
 <a href="https://discord.gg/CCExrpU"><img src="https://invidget.switchblade.xyz/765378158043332618"/></a>
